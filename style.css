@@ -1,0 +1,241 @@
+.cf:before,
+.cf:after {
+	content: " "; /* 1 */
+	display: table; /* 2 */
+}
+
+.cf:after {
+	clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+	*zoom: 1;
+}
+
+body{
+	background-color: #F5F4EF;
+	font-family: "Trebuchet MS", sans-serif;
+	color: #111111;
+	font-size: 14px;
+	line-height: 1.3;
+}
+
+input, textarea{
+	font-family: trebuchet MS;
+}
+
+
+
+h1{
+	font-size: 24px;
+	color: #c74350;
+	font-weight: normal;
+}
+h2{
+	font-size: 20px;
+
+}
+
+h2 a{
+	text-decoration: none;
+	color: #111;
+}
+
+h3{
+	font-size: 18px;
+}
+
+h3 a{
+	text-decoration: none;
+}
+
+#wrap{
+	width: 750px;
+	margin: auto;
+}
+
+a{
+	color: #c74350;
+	text-decoration: underline;
+	transition: color 0.3s, backround-color 0.3s;
+}
+
+
+
+a:hover{
+	color: #ffffff;
+	background-color: #c74350;
+	text-decoration: none;
+
+}
+section{
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 40px;
+	border-radius: 10px;
+}
+.header-top{
+	padding-top: 40px;
+}
+
+header h4{
+	margin-top: 0px;
+	font-size: 16px;
+}
+
+.nav{
+	margin: 0 0 20px;
+	padding: 0;
+	list-style: none;
+	background: #111;
+	border-radius: 10px;
+
+
+}
+.nav li{
+	float: left;
+	list-style: none;
+}
+.nav li a{
+	text-decoration: none;
+	display: block;
+	padding: 10px;
+	font-size: 12px;
+}
+
+.nav li a.active{
+	color:orange;
+}
+.nav li:first-child a{
+	border-radius: 10px 0 0 10px;
+}
+
+h1,h2,h3,h4{
+	margin: 0;
+}
+
+.logo{
+	font-size: 50px;
+	text-decoration: none;
+	color: #111;
+	font-weight: bold;
+}
+
+.logo:hover{
+	color: #c74350;
+	background-color: transparent;
+}
+
+p{
+	margin-top: 15px;
+}
+
+.date span{
+	font-size: 12px;
+	border-bottom: 1px dotted #111;
+}
+
+.widget-title{
+	color: #c74350;
+}
+
+.links{
+	padding: 0;
+	list-style: none;
+	margin-bottom: 30px;
+
+}
+
+
+
+
+.links a{
+	display: block;
+	margin-left: 40px;
+	box-shadow: 0 1px 0 #fff;
+	padding: 3px 2px 3px 2px;
+	text-decoration: none;
+	border-bottom: 1px solid #d4d4d4;
+	color: #111;
+}
+
+.links li{
+
+	width: 25%;
+	float: left;
+
+}
+
+.links li:nth-child(1) a,
+.links li:nth-child(5) a{
+	margin: 0;
+}
+.links a:hover{
+	color: #fff;
+}
+
+.left, .right{
+	float: left;
+}
+
+.left{
+	width: 30%;
+
+	}
+.right{
+	width: 70%;
+}
+.right p{
+	margin: 0;
+}
+.motto{
+	margin-bottom: 20px;
+}
+
+label{
+	cursor: pointer;
+}
+
+label[for="user_message"]{
+	display: block;
+}
+
+.form-row{
+	padding: 10px 0 0;
+}
+
+footer {
+	text-align: right;
+}
+footer p{
+	margin-bottom: 30px;
+}
+
+.footer-logo{
+	background: url("img/ba_logo.png");
+	display: block;
+	background-repeat: no-repeat;
+	width: 180px;
+	height: 41px;
+	text-indent: -9999px;
+	background-size: contain;
+}
+
+.footer-logo:hover{
+	background-color: transparent;
+}
+
+.image{
+	display: block;
+	float: right;
+	width: 80px;
+	height: auto;
+	margin-left: 40px;
+
+}
+
+
